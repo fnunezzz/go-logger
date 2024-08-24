@@ -2,6 +2,10 @@ module github.com/fnunezzz/go-logger
 
 go 1.23.0
 
+retract (
+    v1.0.0 // Published a preview as a test
+)
+
 require (
 	github.com/google/uuid v1.6.0
 	github.com/rs/zerolog v1.33.0
